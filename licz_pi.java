@@ -1,12 +1,12 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class licz_pi {
     public static void main(String[] args) {
         float pi;
         float mnoznik = 4.0f;
 
         pi = mnoznik;
-        int dokladnosc = 100000000;
+        int dokladnosc = Integer.valueOf(args[0]);
         int licznik = 0;
         float mianownik = 3;
 
